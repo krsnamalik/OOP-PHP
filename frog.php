@@ -2,12 +2,12 @@
 class frog 
 {
   public $name;
-  public $feet;
+  public $legs;
   public $jump;
-  function __construct($name,$feet,$jump)
+  function __construct($name,$legs,$jump)
   {
     $this -> name=$name;
-    $this -> feet=$feet;
+    $this -> legs=$legs;
     $this -> jump=$jump;
   }
 }

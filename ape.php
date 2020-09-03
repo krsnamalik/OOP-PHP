@@ -2,12 +2,12 @@
 class ape 
 {
   public $name;
-  public $kaki;
+  public $legs;
   public $yell;
-  function __construct($name,$kaki,$yell)
+  function __construct($name,$legs,$yell)
   {
     $this -> name=$name;
-    $this -> kaki=$kaki;
+    $this -> legs=$legs;
     $this -> yell=$yell;
   }
 }
