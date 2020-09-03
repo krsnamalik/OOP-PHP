@@ -3,7 +3,7 @@ require_once 'animal.php';
 require_once 'ape.php';
 require_once 'frog.php';
 
-$sheep = new Animal('Shaun', 2, 'false');
+$sheep = new Animal('Shaun', 2, 'False');
 $sungokong = new Ape('Kerasakti', 2, 'auooo');
 $kodok = new Frog('Buduk',4,'hop hop');
 
